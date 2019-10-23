@@ -15,7 +15,7 @@ import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 # For example, running this (by clicking run or pressing Shift+Enter) will list all files under the input directory
 
 import os
-for dirname, _, filenames in os.walk('/kaggle/input'):
+for dirname, _, filenames in os.walk('./kaggle/input'):
     for filename in filenames:
         print(os.path.join(dirname, filename))
         
@@ -26,14 +26,14 @@ for dirname, _, filenames in os.walk('/kaggle/input'):
 # In[ ]:
 
 
-train_data = pd.read_csv("/kaggle/input/titanic/train.csv")
+train_data = pd.read_csv("./kaggle/input/titanic/train.csv")
 print(train_data.head())
 
 
 # In[ ]:
 
 
-test_data = pd.read_csv("/kaggle/input/titanic/test.csv")
+test_data = pd.read_csv("./kaggle/input/titanic/test.csv")
 print(test_data.head())
 
 
