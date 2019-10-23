@@ -5,7 +5,7 @@
   "code_file": "titanic.ipynb",
   "language": "python",
   "kernel_type": "notebook",
-  "is_private": true,
+  "is_private": false,
   "enable_gpu": true,
   "enable_internet": false,
   "keywords": [],
